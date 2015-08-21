@@ -1,7 +1,23 @@
 @import '_settings'
+@import 'jeet'
 
 normalize-css()
 base()
 
 body
-  padding: 50px
+  // padding: 50px
+  background-color #3333d3
+  color: white 
+
+/* SVG fix for IE */
+img {
+    width: 100%;
+}
+
+img
+  max-width 100% 
+  
+.shieldpatternfixedholder
+  position: absolute;
+  height: 100%;
+  width: 100%;
